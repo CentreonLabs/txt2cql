@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "txt2cql"
+version = "0.0.1"
+description = "Convert input text into a valid Centreon Query Language request"
+authors = ["Denis Roussel <droussel@centreon.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyperclip = "^1"
+openai = "^1"
+typer = "^0"
+rich = "^13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+txt2cql = "txt2cql.main:app"
+
+[[tool.mypy.overrides]]
+module = ["pyperclip", "typer", "openai"]
+ignore_missing_imports = true
