@@ -8,11 +8,11 @@
 
 ## Installation
 
-### Installing pipx
+### <summary> Installing pipx </summary>
 
 <details>
 
-<summary>Details on how to install pipx (from [their documentation](https://pipx.pypa.io/stable/installation/))</summary>
+From their [documentation](https://pipx.pypa.io/stable/installation/):
 
 #### On macOS:
 
