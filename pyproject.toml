@@ -18,7 +18,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 txt2cql = "txt2cql.main:app"
-
-[[tool.mypy.overrides]]
-module = ["pyperclip", "typer", "openai"]
-ignore_missing_imports = true
