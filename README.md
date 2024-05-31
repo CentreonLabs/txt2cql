@@ -4,6 +4,8 @@
 
 `txt2cql` is a command-line tool designed to convert input text into a valid [_Centreon Query Language_ (CQL)](https://docs.centreon.com/docs/alerts-notifications/resources-status/#cql-criteria) request. The generated CQL is automatically copied to your clipboard, ready to be pasted into the research bar of the resource status page in Centreon.
 
+![Demo Animation](https://github.com/CentreonLabs/txt2cql/blob/assets/assets/output.gif?raw=true)
+
 ## Installation
 
 ### Installing pipx
