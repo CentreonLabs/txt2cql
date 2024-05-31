@@ -1,4 +1,7 @@
-[![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+[![Python](https://img.shields.io/badge/Python-3%2E11-blue?logo=python)](https://devguide.python.org/versions/) &nbsp;
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-green?logo=openai)](https://platform.openai.com/docs/models/gpt-4o) &nbsp;
+[![experimental](https://img.shields.io/badge/stability-experimental-red)](http://github.com/badges/stability-badges) &nbsp;
+[![interface](https://img.shields.io/badge/Interface-CLI-darkblue?logo=windowsterminal)](https://github.com/CentreonLabs/txt2cql/blob/assets/assets/output.gif?raw=true)
 
 # txt2cql
 
