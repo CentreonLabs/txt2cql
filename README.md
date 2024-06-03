@@ -83,7 +83,7 @@ This will add both the above mentioned path and the %USERPROFILE%\.local\bin fol
 ### Installing txt2cql
 
 ```bash
-pipx install git+https://github.com/CentreonLabs/txt2cql
+pipx install txt2cql
 ```
 
 ### Export OpenAI API key
