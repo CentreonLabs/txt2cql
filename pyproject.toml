@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "txt2cql"
-version = "0.0.1"
+version = "0.1.0"
 description = "Convert input text into a valid Centreon Query Language request"
 authors = ["Denis Roussel <droussel@centreon.com>"]
 readme = "README.md"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/CentreonLabs/txt2cql"
+keywords = ["centreon", "LLM"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
