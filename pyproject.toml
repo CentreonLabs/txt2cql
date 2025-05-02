@@ -1,10 +1,13 @@
 [project]
 name = "txt2cql"
-version = "0.0.1"
+version = "0.1.0"
 description = "Convert input text into a valid Centreon Query Language request"
 authors = [{ name = "Denis Roussel", email = "droussel@centreon.com" }]
 requires-python = "~=3.11"
 readme = "README.md"
+license = "AGPL-3.0-or-later"
+repository = "https://github.com/CentreonLabs/txt2cql"
+keywords = ["centreon", "LLM"]
 dependencies = [
     "pyperclip>=1,<2",
     "openai>=1,<2",
